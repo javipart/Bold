@@ -3,20 +3,18 @@ import { BottomNavigation, BottomNavigationAction, Box, CardContent, CardHeader,
 import React, { useState } from 'react';
 import TotalDate from './TotalDate';
 
-const OptionsDate = () => {
+const OptionsDate = ({onChange, option}) => {
   const [value, setValue] = useState(0);
   return (
     <Box sx={{width: 500}}>
       <BottomNavigation
         showLabels
-        value={value}
-        onChange={(e, newValue) => {
-          setValue(newValue);
-        }}
+        value={option}
+        onChange={onChange}
       >
         <BottomNavigationAction label='Hoy'/>
         <BottomNavigationAction label='Esta semana'/>
-        <BottomNavigationAction label='Septiembre'/>
+        <BottomNavigationAction label='Abril'/>
       </BottomNavigation>
     </Box>
   );

@@ -6,15 +6,23 @@ import FilterData from './FilterData';
 import OptionsDate from './OptionsDate';
 import TotalDate from './TotalDate';
 
-const PanelMenu = () => {
+const PanelMenu = ({ onChange, option, totalSales, setFilter }) => {
   return (
     <Grid container spacing={2}>
       <Grid item xs={4}>
-        <TotalDate />
+        <TotalDate
+          option={option}
+          totalSales={totalSales}
+        />
       </Grid>
       <Grid item xs={8}>
-        <OptionsDate />
-        <FilterData />
+        <OptionsDate
+          onChange={onChange}
+          option={option}
+        />
+        <FilterData
+          setFilter={setFilter}
+        />
       </Grid>
     </Grid>
   );
