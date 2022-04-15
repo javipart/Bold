@@ -17,11 +17,11 @@ function App() {
   const store = useStore();
   const dispatch = useDispatch();
   const accountStatus = useSelector((state = store.getState()) => state.accountStatus);
-  const { optionDate, sales, filters, loading, totalSales } = accountStatus;
+  const { optionDate, sales, filter, loading, totalSales } = accountStatus;
 
   useEffect(() => {
     dispatch(getAccountStatus());
-  }, [optionDate, filters]);
+  }, [optionDate, filter]);
 
   const onChange = (e, value) => {
     dispatch(changeOptionDate(value));
@@ -41,6 +41,7 @@ function App() {
               onChange={onChange}
               option={optionDate}
               totalSales={totalSales}
+              filter={filter}
               setFilter={validateFilter}
             />
           </Grid>

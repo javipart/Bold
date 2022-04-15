@@ -11,7 +11,7 @@ const TotalDate = ({ option, totalSales }) => {
   };
 
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345, borderRadius: 3 }}>
       <CardHeader
         title={`Total de ventas de ${options[option]}`}
         action={<HelpOutline />}

@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+  Card,
   CircularProgress,
   Paper,
   Table,
@@ -49,7 +50,7 @@ const PanelTable = ({ data, loading, option }) => {
   };
 
   return (
-    <>
+    <Card sx={{ borderRadius: 3 }}>
       <Toolbar
         className='Table-bar'
         sx={{
@@ -65,10 +66,11 @@ const PanelTable = ({ data, loading, option }) => {
           {`Tus ventas de ${options[option]}`}
         </Typography>
       </Toolbar>
-      <TableContainer component={Paper}>
+      <TableContainer sx={{ maxHeight: 440 }}>
         <Table
           sx={{ minWidth: 750 }}
           size='medium'
+          stickyHeader
         >
           <TableHead>
             <TableRow>
@@ -94,7 +96,7 @@ const PanelTable = ({ data, loading, option }) => {
           </TableBody>
         </Table>
       </TableContainer>
-    </>
+    </Card>
   );
 }
 

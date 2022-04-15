@@ -1,23 +1,23 @@
-import { HelpOutline, TuneOutlined } from '@mui/icons-material';
-import { Button, Menu, ListItemButton, Checkbox, List, ListSubheader, ListItemIcon, ListItemText, ListItem } from '@mui/material';
-import React, { useState } from 'react';
-import TotalDate from './TotalDate';
+import { TuneOutlined } from '@mui/icons-material';
+import {
+  Button,
+  Menu,
+  ListItemButton,
+  Checkbox,
+  List,
+  ListSubheader,
+  ListItemIcon,
+  ListItemText,
+  ListItem,
+} from '@mui/material';
+import React, { useMemo, useState } from 'react';
 
-const FilterData = ({ setFilter }) => {
+const FilterData = ({ setFilter, filter }) => {
   const [checks, setChecks] = useState({
     cardm: false,
     link: false,
     all: false,
   });
-  const [anchorEl, setAnchorEl] = React.useState(null);
-  const open = Boolean(anchorEl);
-  const handleClick = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
-
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
 
   const handleCheck = (value) => {
     const newChecks = {};
@@ -30,6 +30,20 @@ const FilterData = ({ setFilter }) => {
     }
     setChecks(newChecks);
   }
+
+  useMemo(() => {
+    handleCheck(filter);
+  }, [filter]);
+
+  const [anchorEl, setAnchorEl] = React.useState(null);
+  const open = Boolean(anchorEl);
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
 
   const validateFilter = () => {
     const filter = Object.keys(checks).filter(check => checks[check]);

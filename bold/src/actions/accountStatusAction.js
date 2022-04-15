@@ -32,12 +32,12 @@ export function getAccountStatus() {
 export function changeOptionDate(option) {
   return dispatch => {
     dispatch(changeOptionDateSuccess(option));
+    dispatch(setFilterSuccess('all'));
   };
 }
 
 export function setFilter(value) {
   return dispatch => {
     dispatch(setFilterSuccess(value));
-    dispatch(getAccountStatus());
   }
 }
