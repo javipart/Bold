@@ -5,6 +5,7 @@ import PanelTable from '../PanelTable/PanelTable';
 import FilterData from './FilterData';
 import OptionsDate from './OptionsDate';
 import TotalDate from './TotalDate';
+import PropTypes from 'prop-types';
 
 const PanelMenu = ({ onChange, option, totalSales, setFilter, filter, formatterField, loading }) => {
   return (
@@ -36,5 +37,15 @@ const PanelMenu = ({ onChange, option, totalSales, setFilter, filter, formatterF
     </Grid>
   );
 }
+
+PanelMenu.propTypes = {
+  onChange: PropTypes.func,
+  option: PropTypes.number,
+  totalSales: PropTypes.number,
+  setFilter: PropTypes.func,
+  filter: PropTypes.string,
+  formatterField: PropTypes.func,
+  loading: PropTypes.bool,
+};
 
 export default PanelMenu;

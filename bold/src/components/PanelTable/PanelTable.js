@@ -12,6 +12,7 @@ import {
   Typography,
 } from '@mui/material';
 import { PointOfSale, Link, CreditCardOutlined } from '@mui/icons-material';
+import PropTypes from 'prop-types';
 
 const PanelTable = ({ data, loading, option, formatterField }) => {
 
@@ -139,5 +140,12 @@ const PanelTable = ({ data, loading, option, formatterField }) => {
     </Card >
   );
 }
+
+PanelTable.propTypes = {
+  data: PropTypes.array,
+  loading: PropTypes.bool,
+  option: PropTypes.number,
+  formatterField: PropTypes.func,
+};
 
 export default PanelTable;

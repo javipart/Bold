@@ -1,7 +1,5 @@
-import { HelpOutline } from '@mui/icons-material';
-import { BottomNavigation, BottomNavigationAction, Card, CardContent, CardHeader, Grid, Typography } from '@mui/material';
-import React, { useState } from 'react';
-import TotalDate from './TotalDate';
+import { BottomNavigation, BottomNavigationAction } from '@mui/material';
+import PropTypes from 'prop-types';
 
 const OptionsDate = ({ onChange, option }) => {
   const getDate = () => {
@@ -25,5 +23,10 @@ const OptionsDate = ({ onChange, option }) => {
     </BottomNavigation>
   );
 }
+
+OptionsDate.propTypes = {
+  onChange: PropTypes.func,
+  option: PropTypes.number
+};
 
 export default OptionsDate;

@@ -1,6 +1,6 @@
 import { HelpOutline } from '@mui/icons-material';
-import { Card, CardContent, CardHeader, CircularProgress, Grid, Tooltip, Typography } from '@mui/material';
-import React from 'react';
+import { Card, CardContent, CardHeader, CircularProgress, Tooltip, Typography } from '@mui/material';
+import PropTypes from 'prop-types';
 
 const TotalDate = ({ option, totalSales, formatterField, loading }) => {
 
@@ -51,5 +51,12 @@ const TotalDate = ({ option, totalSales, formatterField, loading }) => {
     </Card>
   );
 }
+
+TotalDate.propTypes = {
+  option: PropTypes.number,
+  totalSales: PropTypes.number,
+  formatterField: PropTypes.func,
+  loading: PropTypes.bool,
+};
 
 export default TotalDate;

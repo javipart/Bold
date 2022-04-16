@@ -1,5 +1,5 @@
-import React, { } from 'react';
-import { AppBar, Box, Button, Container, Toolbar, Tooltip, Typography } from '@mui/material';
+import React from 'react';
+import { AppBar, Button, Container, Toolbar, Tooltip } from '@mui/material';
 import { HelpOutline } from '@mui/icons-material';
 
 const NavBar = () => {

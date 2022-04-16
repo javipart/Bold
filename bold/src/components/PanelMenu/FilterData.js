@@ -11,6 +11,7 @@ import {
   ListItem,
 } from '@mui/material';
 import React, { useMemo, useState } from 'react';
+import PropTypes from 'prop-types';
 
 const FilterData = ({ setFilter, filter }) => {
   const [checks, setChecks] = useState({
@@ -123,6 +124,11 @@ const FilterData = ({ setFilter, filter }) => {
       </Menu>
     </>
   );
+}
+
+FilterData.propTypes = {
+  setFilter: PropTypes.func,
+  filter: PropTypes.string,
 }
 
 export default FilterData;
