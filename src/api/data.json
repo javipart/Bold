@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "status": 1,
+    "date": "2022-04-15T08:32:41.141Z",
+    "method": "mc-7711",
+    "transactionId": "GZEN23784UBV2",
+    "amount": 58000,
+    "deduction": 1508,
+    "mode": "cardm"
+  },
+  {
+    "id": 2,
+    "status": 1,
+    "date": "2022-04-20T08:39:41.141Z",
+    "method": "mc-7712",
+    "transactionId": "GZEN23784UBV3",
+    "amount": 27000,
+    "deduction": 702,
+    "mode": "link"
+  },
+  {
+    "id": 3,
+    "status": 0,
+    "date": "2022-04-20T08:42:41.141Z",
+    "method": "mc-7713",
+    "transactionId": "GZEN23784UBV4",
+    "amount": 99000,
+    "deduction": 2574,
+    "mode": "cardm"
+  },
+  {
+    "id": 4,
+    "status": 1,
+    "date": "2022-04-13T18:32:41.141Z",
+    "method": "mc-7714",
+    "transactionId": "GZEN23784UBV5",
+    "amount": 14000,
+    "deduction": 364,
+    "mode": "link"
+  },
+  {
+    "id": 5,
+    "status": 1,
+    "date": "2022-04-13T08:35:41.141Z",
+    "method": "mc-7715",
+    "transactionId": "GZEN23784UBV6",
+    "amount": 76000,
+    "deduction": 1976,
+    "mode": "link"
+  },
+  {
+    "id": 6,
+    "status": 1,
+    "date": "2022-04-19T09:32:41.141Z",
+    "method": "mc-7716",
+    "transactionId": "GZEN23784UBV7",
+    "amount": 920000,
+    "deduction": 23920,
+    "mode": "cardm"
+  },
+  {
+    "id": 7,
+    "status": 1,
+    "date": "2022-04-14T05:32:41.141Z",
+    "method": "mc-7717",
+    "transactionId": "GZEN23784UBV8",
+    "amount": 123400,
+    "deduction": 3208.4,
+    "mode": "cardm"
+  },
+  {
+    "id": 8,
+    "status": 1,
+    "date": "2022-04-12T18:32:41.141Z",
+    "method": "mc-7718",
+    "transactionId": "GZEN23784UBV9",
+    "amount": 11400,
+    "deduction": 296.4,
+    "mode": "cardm"
+  },
+  {
+    "id": 9,
+    "status": 1,
+    "date": "2022-04-10T09:05:41.141Z",
+    "method": "mc-7719",
+    "transactionId": "GZEN2374UBV10",
+    "amount": 114000,
+    "deduction": 2964,
+    "mode": "link"
+  },
+  {
+    "id": 10,
+    "status": 1,
+    "date": "2022-04-11T16:24:41.141Z",
+    "method": "mc-7720",
+    "transactionId": "GZEN2375UBV11",
+    "amount": 29000,
+    "deduction": 754,
+    "mode": "cardm"
+  },
+  {
+    "id": 11,
+    "status": 1,
+    "date": "2022-04-13T08:32:41.141Z",
+    "method": "mc-7721",
+    "transactionId": "GZEN2374UBV11",
+    "amount": 50000,
+    "deduction": 1300,
+    "mode": "cardm"
+  },
+  {
+    "id": 12,
+    "status": 1,
+    "date": "2022-04-12T07:33:45.141Z",
+    "method": "mc-7722",
+    "transactionId": "GZEN2375UBV12",
+    "amount": 65000,
+    "deduction": 1690,
+    "mode": "link"
+  },
+  {
+    "id": 13,
+    "status": 1,
+    "date": "2022-04-15T10:02:01.141Z",
+    "method": "mc-7723",
+    "transactionId": "GZEN2374UBV12",
+    "amount": 121400,
+    "deduction": 3156.4,
+    "mode": "cardm"
+  },
+  {
+    "id": 14,
+    "status": 1,
+    "date": "2022-04-09T19:09:11.141Z",
+    "method": "mc-7724",
+    "transactionId": "GZEN2375UBV13",
+    "amount": 6000,
+    "deduction": 156,
+    "mode": "link"
+  },
+  {
+    "id": 15,
+    "status": 1,
+    "date": "2022-04-09T13:22:21.141Z",
+    "method": "mc-7725",
+    "transactionId": "GZEN2374UBV13",
+    "amount": 768000,
+    "deduction": 19968,
+    "mode": "link"
+  },
+  {
+    "id": 16,
+    "status": 1,
+    "date": "2022-04-09T15:56:10.141Z",
+    "method": "mc-7726",
+    "transactionId": "GZEN2375UBV14",
+    "amount": 120000,
+    "deduction": 3120,
+    "mode": "cardm"
+  },
+  {
+    "id": 17,
+    "status": 1,
+    "date": "2022-04-07T09:32:41.141Z",
+    "method": "mc-7727",
+    "transactionId": "GZEN2374UBV14",
+    "amount": 580200,
+    "deduction": 15085.2,
+    "mode": "cardm"
+  },
+  {
+    "id": 18,
+    "status": 1,
+    "date": "2022-04-01T10:32:41.141Z",
+    "method": "mc-7728",
+    "transactionId": "GZEN2375UBV15",
+    "amount": 111000,
+    "deduction": 2886,
+    "mode": "cardm"
+  },
+  {
+    "id": 19,
+    "status": 1,
+    "date": "2022-04-01T07:32:41.141Z",
+    "method": "mc-7729",
+    "transactionId": "GZEN2374UBV15",
+    "amount": 90700,
+    "deduction": 2358.2,
+    "mode": "link"
+  },
+  {
+    "id": 20,
+    "status": 1,
+    "date": "2022-04-11T11:32:41.141Z",
+    "method": "mc-7730",
+    "transactionId": "GZEN2375UBV16",
+    "amount": 110600,
+    "deduction": 2875.6,
+    "mode": "cardm"
+  },
+  {
+    "id": 21,
+    "status": 1,
+    "date": "2022-04-10T12:32:41.141Z",
+    "method": "mc-7731",
+    "transactionId": "GZEN2374UBV16",
+    "amount": 421000,
+    "deduction": 10946,
+    "mode": "cardm"
+  },
+  {
+    "id": 22,
+    "status": 1,
+    "date": "2022-04-02T13:32:41.141Z",
+    "method": "mc-7732",
+    "transactionId": "GZEN2375UBV17",
+    "amount": 16000,
+    "deduction": 416,
+    "mode": "link"
+  },
+  {
+    "id": 23,
+    "status": 1,
+    "date": "2022-04-03T14:32:41.141Z",
+    "method": "mc-7733",
+    "transactionId": "GZEN2374UBV17",
+    "amount": 160000,
+    "deduction": 4160,
+    "mode": "cardm"
+  },
+  {
+    "id": 24,
+    "status": 1,
+    "date": "2022-04-09T15:32:41.141Z",
+    "method": "mc-7734",
+    "transactionId": "GZEN2375UBV18",
+    "amount": 1567800,
+    "deduction": 40762.8,
+    "mode": "link"
+  },
+  {
+    "id": 25,
+    "status": 1,
+    "date": "2022-04-01T16:32:41.141Z",
+    "method": "mc-7735",
+    "transactionId": "GZEN2374UBV18",
+    "amount": 58000,
+    "deduction": 1508,
+    "mode": "link"
+  },
+  {
+    "id": 26,
+    "status": 1,
+    "date": "2022-04-03T17:32:41.141Z",
+    "method": "mc-7736",
+    "transactionId": "GZEN2375UBV19",
+    "amount": 120000,
+    "deduction": 3120,
+    "mode": "cardm"
+  },
+  {
+    "id": 27,
+    "status": 1,
+    "date": "2022-04-05T18:32:41.141Z",
+    "method": "mc-7737",
+    "transactionId": "GZEN2374UBV19",
+    "amount": 12000,
+    "deduction": 312,
+    "mode": "cardm"
+  },
+  {
+    "id": 28,
+    "status": 1,
+    "date": "2022-04-06T19:32:41.141Z",
+    "method": "mc-7738",
+    "transactionId": "GZEN2375UBV20",
+    "amount": 40000,
+    "deduction": 1040,
+    "mode": "cardm"
+  },
+  {
+    "id": 29,
+    "status": 0,
+    "date": "2022-04-11T20:32:41.141Z",
+    "method": "mc-7739",
+    "transactionId": "GZEN2374UBV20",
+    "amount": 56000,
+    "deduction": 1456,
+    "mode": "link"
+  },
+  {
+    "id": 30,
+    "status": 1,
+    "date": "2022-04-10T19:32:41.141Z",
+    "method": "mc-7740",
+    "transactionId": "GZEN2375UBV21",
+    "amount": 43000,
+    "deduction": 1118,
+    "mode": "cardm"
+  },
+  {
+    "id": 31,
+    "status": 1,
+    "date": "2022-04-11T18:32:41.141Z",
+    "method": "mc-7741",
+    "transactionId": "GZEN2374UBV21",
+    "amount": 14500,
+    "deduction": 377,
+    "mode": "cardm"
+  },
+  {
+    "id": 32,
+    "status": 1,
+    "date": "2022-03-14T17:32:41.141Z",
+    "method": "mc-7742",
+    "transactionId": "GZEN2375UBV22",
+    "amount": 30900,
+    "deduction": 803.4,
+    "mode": "link"
+  },
+  {
+    "id": 33,
+    "status": 1,
+    "date": "2022-03-19T17:07:56.141Z",
+    "method": "mc-7743",
+    "transactionId": "GZEN2374UBV22",
+    "amount": 45600,
+    "deduction": 1185.6,
+    "mode": "cardm"
+  },
+  {
+    "id": 34,
+    "status": 1,
+    "date": "2022-03-14T16:32:41.141Z",
+    "method": "mc-7744",
+    "transactionId": "GZEN2375UBV23",
+    "amount": 39000,
+    "deduction": 1014,
+    "mode": "link"
+  },
+  {
+    "id": 35,
+    "status": 1,
+    "date": "2022-03-15T15:32:41.141Z",
+    "method": "mc-7745",
+    "transactionId": "GZEN2374UBV23",
+    "amount": 10500,
+    "deduction": 273,
+    "mode": "link"
+  },
+  {
+    "id": 36,
+    "status": 0,
+    "date": "2022-02-18T15:15:49.141Z",
+    "method": "mc-7746",
+    "transactionId": "GZEN2375UBV24",
+    "amount": 70600,
+    "deduction": 1835.6,
+    "mode": "cardm"
+  },
+  {
+    "id": 37,
+    "status": 1,
+    "date": "2022-02-17T14:30:30.141Z",
+    "method": "mc-7747",
+    "transactionId": "GZEN2374UBV24",
+    "amount": 42700,
+    "deduction": 1110.2,
+    "mode": "cardm"
+  },
+  {
+    "id": 38,
+    "status": 1,
+    "date": "2022-04-17T13:02:01.141Z",
+    "method": "mc-7748",
+    "transactionId": "GZEN2375UBV25",
+    "amount": 100000,
+    "deduction": 2600,
+    "mode": "cardm"
+  },
+  {
+    "id": 39,
+    "status": 1,
+    "date": "2022-04-18T12:12:41.141Z",
+    "method": "mc-7749",
+    "transactionId": "GZEN2374UBV25",
+    "amount": 54000,
+    "deduction": 1404,
+    "mode": "link"
+  },
+  {
+    "id": 40,
+    "status": 1,
+    "date": "2022-04-14T11:31:11.141Z",
+    "method": "mc-7750",
+    "transactionId": "GZEN2375UBV26",
+    "amount": 58000,
+    "deduction": 1508,
+    "mode": "cardm"
+  },
+  {
+    "id": 41,
+    "status": 1,
+    "date": "2022-04-14T18:46:11.141Z",
+    "method": "mc-7751",
+    "transactionId": "GZEN2374UBV26",
+    "amount": 65000,
+    "deduction": 1690,
+    "mode": "cardm"
+  },
+  {
+    "id": 42,
+    "status": 1,
+    "date": "2022-04-14T10:45:45.141Z",
+    "method": "mc-7752",
+    "transactionId": "GZEN2375UBV27",
+    "amount": 56000,
+    "deduction": 1456,
+    "mode": "link"
+  },
+  {
+    "id": 43,
+    "status": 1,
+    "date": "2022-03-14T09:39:41.141Z",
+    "method": "mc-7753",
+    "transactionId": "GZEN2374UBV27",
+    "amount": 90000,
+    "deduction": 2340,
+    "mode": "cardm"
+  },
+  {
+    "id": 44,
+    "status": 0,
+    "date": "2022-02-14T08:39:41.141Z",
+    "method": "mc-7754",
+    "transactionId": "GZEN2375UBV28",
+    "amount": 42000,
+    "deduction": 1092,
+    "mode": "link"
+  },
+  {
+    "id": 45,
+    "status": 1,
+    "date": "2022-01-14T08:37:41.141Z",
+    "method": "mc-7755",
+    "transactionId": "GZEN2374UBV28",
+    "amount": 43500,
+    "deduction": 1131,
+    "mode": "link"
+  },
+  {
+    "id": 46,
+    "status": 1,
+    "date": "2022-01-14T07:37:17.141Z",
+    "method": "mc-7756",
+    "transactionId": "GZEN2375UBV29",
+    "amount": 45000,
+    "deduction": 1170,
+    "mode": "cardm"
+  },
+  {
+    "id": 47,
+    "status": 1,
+    "date": "2022-04-14T06:24:42.141Z",
+    "method": "mc-7757",
+    "transactionId": "GZEN2374UBV29",
+    "amount": 46500,
+    "deduction": 1209,
+    "mode": "cardm"
+  },
+  {
+    "id": 48,
+    "status": 1,
+    "date": "2022-04-14T05:35:42.141Z",
+    "method": "mc-7758",
+    "transactionId": "GZEN2375UBV30",
+    "amount": 48000,
+    "deduction": 1248,
+    "mode": "cardm"
+  },
+  {
+    "id": 49,
+    "status": 1,
+    "date": "2022-04-14T08:32:41.141Z",
+    "method": "mc-7759",
+    "transactionId": "GZEN2374UBV30",
+    "amount": 49500,
+    "deduction": 1287,
+    "mode": "link"
+  },
+  {
+    "id": 50,
+    "status": 1,
+    "date": "2022-04-14T04:12:11.141Z",
+    "method": "mc-7760",
+    "transactionId": "GZEN2375UBV31",
+    "amount": 51000,
+    "deduction": 1326,
+    "mode": "cardm"
+  },
+  {
+    "id": 51,
+    "status": 1,
+    "date": "2022-04-14T05:21:11.141Z",
+    "method": "mc-7761",
+    "transactionId": "GZEN2374UBV31",
+    "amount": 52500,
+    "deduction": 1365,
+    "mode": "cardm"
+  },
+  {
+    "id": 52,
+    "status": 1,
+    "date": "2022-04-14T04:12:41.141Z",
+    "method": "mc-7762",
+    "transactionId": "GZEN2375UBV32",
+    "amount": 54000,
+    "deduction": 1404,
+    "mode": "link"
+  },
+  {
+    "id": 53,
+    "status": 1,
+    "date": "2022-04-14T06:34:41.141Z",
+    "method": "mc-7763",
+    "transactionId": "GZEN2374UBV32",
+    "amount": 55500,
+    "deduction": 1443,
+    "mode": "cardm"
+  },
+  {
+    "id": 54,
+    "status": 1,
+    "date": "2022-04-13T18:02:41.141Z",
+    "method": "mc-7764",
+    "transactionId": "GZEN2375UBV33",
+    "amount": 57000,
+    "deduction": 1482,
+    "mode": "link"
+  },
+  {
+    "id": 55,
+    "status": 0,
+    "date": "2022-04-11T19:02:41.141Z",
+    "method": "mc-7765",
+    "transactionId": "GZEN2374UBV33",
+    "amount": 58500,
+    "deduction": 1521,
+    "mode": "link"
+  },
+  {
+    "id": 56,
+    "status": 1,
+    "date": "2022-04-15T15:31:41.141Z",
+    "method": "mc-7766",
+    "transactionId": "GZEN2375UBV34",
+    "amount": 60000,
+    "deduction": 1560,
+    "mode": "cardm"
+  },
+  {
+    "id": 57,
+    "status": 1,
+    "date": "2022-03-14T08:32:41.141Z",
+    "method": "mc-7767",
+    "transactionId": "GZEN2374UBV34",
+    "amount": 61500,
+    "deduction": 1599,
+    "mode": "cardm"
+  },
+  {
+    "id": 58,
+    "status": 0,
+    "date": "2022-04-11T08:32:41.141Z",
+    "method": "mc-7768",
+    "transactionId": "GZEN2375UBV35",
+    "amount": 63000,
+    "deduction": 1638,
+    "mode": "cardm"
+  },
+  {
+    "id": 59,
+    "status": 1,
+    "date": "2022-03-17T08:32:41.141Z",
+    "method": "mc-7769",
+    "transactionId": "GZEN2374UBV35",
+    "amount": 64500,
+    "deduction": 1677,
+    "mode": "link"
+  },
+  {
+    "id": 60,
+    "status": 1,
+    "date": "2022-04-14T08:32:41.141Z",
+    "method": "mc-7770",
+    "transactionId": "GZEN2375UBV36",
+    "amount": 66000,
+    "deduction": 1716,
+    "mode": "cardm"
+  },
+  {
+    "id": 61,
+    "status": 1,
+    "date": "2022-04-17T08:32:41.141Z",
+    "method": "mc-7771",
+    "transactionId": "GZEN2374UBV36",
+    "amount": 67500,
+    "deduction": 1755,
+    "mode": "cardm"
+  },
+  {
+    "id": 62,
+    "status": 1,
+    "date": "2022-04-14T08:32:41.141Z",
+    "method": "mc-7772",
+    "transactionId": "GZEN2375UBV37",
+    "amount": 69000,
+    "deduction": 1794,
+    "mode": "link"
+  },
+  {
+    "id": 63,
+    "status": 1,
+    "date": "2022-04-14T08:32:41.141Z",
+    "method": "mc-7773",
+    "transactionId": "GZEN2374UBV37",
+    "amount": 70500,
+    "deduction": 1833,
+    "mode": "cardm"
+  },
+  {
+    "id": 64,
+    "status": 1,
+    "date": "2022-04-14T08:32:41.141Z",
+    "method": "mc-7774",
+    "transactionId": "GZEN2375UBV38",
+    "amount": 72000,
+    "deduction": 1872,
+    "mode": "link"
+  },
+  {
+    "id": 65,
+    "status": 1,
+    "date": "2022-03-19T08:32:41.141Z",
+    "method": "mc-7775",
+    "transactionId": "GZEN2374UBV38",
+    "amount": 73500,
+    "deduction": 1911,
+    "mode": "link"
+  },
+  {
+    "id": 66,
+    "status": 1,
+    "date": "2022-04-13T08:32:41.141Z",
+    "method": "mc-7776",
+    "transactionId": "GZEN2375UBV39",
+    "amount": 75000,
+    "deduction": 1950,
+    "mode": "cardm"
+  },
+  {
+    "id": 67,
+    "status": 1,
+    "date": "2022-04-09T08:32:41.141Z",
+    "method": "mc-7777",
+    "transactionId": "GZEN2374UBV39",
+    "amount": 76500,
+    "deduction": 1989,
+    "mode": "cardm"
+  },
+  {
+    "id": 68,
+    "status": 1,
+    "date": "2022-04-08T08:32:41.141Z",
+    "method": "mc-7778",
+    "transactionId": "GZEN2375UBV40",
+    "amount": 78000,
+    "deduction": 2028,
+    "mode": "cardm"
+  },
+  {
+    "id": 69,
+    "status": 1,
+    "date": "2022-04-07T08:32:41.141Z",
+    "method": "mc-7779",
+    "transactionId": "GZEN2374UBV40",
+    "amount": 79500,
+    "deduction": 2067,
+    "mode": "link"
+  },
+  {
+    "id": 70,
+    "status": 1,
+    "date": "2022-04-16T08:32:41.141Z",
+    "method": "mc-7780",
+    "transactionId": "GZEN2375UBV41",
+    "amount": 81000,
+    "deduction": 2106,
+    "mode": "cardm"
+  },
+  {
+    "id": 71,
+    "status": 1,
+    "date": "2022-04-14T08:32:41.141Z",
+    "method": "mc-7781",
+    "transactionId": "GZEN2374UBV41",
+    "amount": 82500,
+    "deduction": 2145,
+    "mode": "cardm"
+  },
+  {
+    "id": 72,
+    "status": 0,
+    "date": "2022-04-16T08:32:41.141Z",
+    "method": "mc-7782",
+    "transactionId": "GZEN2375UBV42",
+    "amount": 84000,
+    "deduction": 2184,
+    "mode": "link"
+  },
+  {
+    "id": 73,
+    "status": 0,
+    "date": "2022-04-14T08:32:41.141Z",
+    "method": "mc-7783",
+    "transactionId": "GZEN2374UBV42",
+    "amount": 85500,
+    "deduction": 2223,
+    "mode": "cardm"
+  },
+  {
+    "id": 74,
+    "status": 1,
+    "date": "2022-04-14T08:32:41.141Z",
+    "method": "mc-7784",
+    "transactionId": "GZEN2375UBV43",
+    "amount": 87000,
+    "deduction": 2262,
+    "mode": "link"
+  },
+  {
+    "id": 75,
+    "status": 1,
+    "date": "2022-04-14T08:32:41.141Z",
+    "method": "mc-7785",
+    "transactionId": "GZEN2374UBV43",
+    "amount": 88500,
+    "deduction": 2301,
+    "mode": "link"
+  },
+  {
+    "id": 76,
+    "status": 1,
+    "date": "2022-04-10T08:32:41.141Z",
+    "method": "mc-7786",
+    "transactionId": "GZEN2375UBV44",
+    "amount": 90000,
+    "deduction": 2340,
+    "mode": "cardm"
+  },
+  {
+    "id": 77,
+    "status": 0,
+    "date": "2022-04-14T08:32:41.141Z",
+    "method": "mc-7787",
+    "transactionId": "GZEN2374UBV44",
+    "amount": 91500,
+    "deduction": 2379,
+    "mode": "cardm"
+  },
+  {
+    "id": 78,
+    "status": 1,
+    "date": "2022-04-14T08:32:41.141Z",
+    "method": "mc-7788",
+    "transactionId": "GZEN2375UBV45",
+    "amount": 93000,
+    "deduction": 2418,
+    "mode": "cardm"
+  },
+  {
+    "id": 79,
+    "status": 1,
+    "date": "2022-04-16T08:32:41.141Z",
+    "method": "mc-7789",
+    "transactionId": "GZEN2374UBV45",
+    "amount": 94500,
+    "deduction": 2457,
+    "mode": "link"
+  },
+  {
+    "id": 80,
+    "status": 1,
+    "date": "2022-04-14T08:32:41.141Z",
+    "method": "mc-7790",
+    "transactionId": "GZEN2375UBV46",
+    "amount": 96000,
+    "deduction": 2496,
+    "mode": "cardm"
+  },
+  {
+    "id": 81,
+    "status": 1,
+    "date": "2022-04-11T08:32:41.141Z",
+    "method": "mc-7791",
+    "transactionId": "GZEN2374UBV46",
+    "amount": 97500,
+    "deduction": 2535,
+    "mode": "cardm"
+  },
+  {
+    "id": 82,
+    "status": 1,
+    "date": "2022-04-13T08:32:41.141Z",
+    "method": "mc-7792",
+    "transactionId": "GZEN2375UBV47",
+    "amount": 99000,
+    "deduction": 2574,
+    "mode": "link"
+  },
+  {
+    "id": 83,
+    "status": 1,
+    "date": "2022-04-03T08:32:41.141Z",
+    "method": "mc-7793",
+    "transactionId": "GZEN2374UBV47",
+    "amount": 100500,
+    "deduction": 2613,
+    "mode": "cardm"
+  },
+  {
+    "id": 84,
+    "status": 1,
+    "date": "2022-04-01T08:32:41.141Z",
+    "method": "mc-7794",
+    "transactionId": "GZEN2375UBV48",
+    "amount": 102000,
+    "deduction": 2652,
+    "mode": "link"
+  },
+  {
+    "id": 85,
+    "status": 1,
+    "date": "2022-04-14T08:32:41.141Z",
+    "method": "mc-7795",
+    "transactionId": "GZEN2374UBV48",
+    "amount": 103500,
+    "deduction": 2691,
+    "mode": "link"
+  },
+  {
+    "id": 86,
+    "status": 1,
+    "date": "2022-04-01T08:32:41.141Z",
+    "method": "mc-7796",
+    "transactionId": "GZEN2375UBV49",
+    "amount": 105000,
+    "deduction": 2730,
+    "mode": "cardm"
+  },
+  {
+    "id": 87,
+    "status": 1,
+    "date": "2022-04-14T08:32:41.141Z",
+    "method": "mc-7797",
+    "transactionId": "GZEN2374UBV49",
+    "amount": 106500,
+    "deduction": 2769,
+    "mode": "cardm"
+  },
+  {
+    "id": 88,
+    "status": 1,
+    "date": "2022-04-16T13:32:41.141Z",
+    "method": "mc-7798",
+    "transactionId": "GZEN2375UBV50",
+    "amount": 108000,
+    "deduction": 2808,
+    "mode": "cardm"
+  },
+  {
+    "id": 89,
+    "status": 1,
+    "date": "2022-04-14T12:32:41.141Z",
+    "method": "mc-7799",
+    "transactionId": "GZEN2374UBV50",
+    "amount": 109500,
+    "deduction": 2847,
+    "mode": "link"
+  },
+  {
+    "id": 90,
+    "status": 1,
+    "date": "2022-04-14T11:32:41.141Z",
+    "method": "mc-7800",
+    "transactionId": "GZEN2375UBV51",
+    "amount": 111000,
+    "deduction": 2886,
+    "mode": "cardm"
+  },
+  {
+    "id": 91,
+    "status": 1,
+    "date": "2022-04-14T10:32:41.141Z",
+    "method": "mc-7801",
+    "transactionId": "GZEN2374UBV51",
+    "amount": 112500,
+    "deduction": 2925,
+    "mode": "cardm"
+  },
+  {
+    "id": 92,
+    "status": 1,
+    "date": "2022-04-14T09:32:41.141Z",
+    "method": "mc-7802",
+    "transactionId": "GZEN2375UBV52",
+    "amount": 114000,
+    "deduction": 2964,
+    "mode": "link"
+  },
+  {
+    "id": 93,
+    "status": 1,
+    "date": "2022-04-14T08:32:41.141Z",
+    "method": "mc-7803",
+    "transactionId": "GZEN2374UBV52",
+    "amount": 115500,
+    "deduction": 3003,
+    "mode": "cardm"
+  },
+  {
+    "id": 94,
+    "status": 1,
+    "date": "2022-04-14T07:32:41.141Z",
+    "method": "mc-7804",
+    "transactionId": "GZEN2375UBV53",
+    "amount": 117000,
+    "deduction": 3042,
+    "mode": "link"
+  },
+  {
+    "id": 95,
+    "status": 1,
+    "date": "2022-04-14T06:32:41.141Z",
+    "method": "mc-7805",
+    "transactionId": "GZEN2374UBV53",
+    "amount": 118500,
+    "deduction": 3081,
+    "mode": "link"
+  },
+  {
+    "id": 96,
+    "status": 1,
+    "date": "2022-04-14T05:32:41.141Z",
+    "method": "mc-7806",
+    "transactionId": "GZEN2375UBV54",
+    "amount": 120000,
+    "deduction": 3120,
+    "mode": "cardm"
+  },
+  {
+    "id": 97,
+    "status": 1,
+    "date": "2022-04-14T04:32:41.141Z",
+    "method": "mc-7807",
+    "transactionId": "GZEN2374UBV54",
+    "amount": 121500,
+    "deduction": 3159,
+    "mode": "cardm"
+  },
+  {
+    "id": 98,
+    "status": 1,
+    "date": "2022-04-14T03:32:41.141Z",
+    "method": "mc-7808",
+    "transactionId": "GZEN2375UBV55",
+    "amount": 123000,
+    "deduction": 3198,
+    "mode": "cardm"
+  },
+  {
+    "id": 99,
+    "status": 0,
+    "date": "2022-04-14T02:32:41.141Z",
+    "method": "mc-7809",
+    "transactionId": "GZEN2374UBV55",
+    "amount": 124500,
+    "deduction": 3237,
+    "mode": "link"
+  },
+  {
+    "id": 100,
+    "status": 1,
+    "date": "2022-04-16T01:32:41.141Z",
+    "method": "mc-7810",
+    "transactionId": "GZEN2375UBV56",
+    "amount": 126000,
+    "deduction": 3276,
+    "mode": "cardm"
+  }
+]
