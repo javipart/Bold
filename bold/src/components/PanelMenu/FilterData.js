@@ -48,13 +48,14 @@ const FilterData = ({ setFilter, filter }) => {
   const validateFilter = () => {
     const filter = Object.keys(checks).filter(check => checks[check]);
     setFilter(filter.shift());
+    handleClose();
   }
 
   return (
     <>
       <Button
         id='pos-button'
-        sx={{ backgroundColor: '#FFFFFF' }}
+        sx={{ backgroundColor: '#FFFFFF', width: '30%' }}
         endIcon={<TuneOutlined />}
         onClick={handleClick}
         aria-haspopup='true'
@@ -77,12 +78,11 @@ const FilterData = ({ setFilter, filter }) => {
           vertical: 'top',
           horizontal: 'left',
         }}
-
       >
         <List
-          subheader={<ListSubheader>FILTRAR</ListSubheader>}
+          subheader={<ListSubheader component='div' sx={{ textAlign: 'center' }}>FILTRAR</ListSubheader>}
         >
-          <ListItemButton>
+          <ListItemButton onClick={() => handleCheck('cardm')}>
             <ListItemIcon>
               <Checkbox
                 edge='start'
@@ -92,7 +92,7 @@ const FilterData = ({ setFilter, filter }) => {
             </ListItemIcon>
             <ListItemText primary='Cobro con datáfono' />
           </ListItemButton>
-          <ListItemButton>
+          <ListItemButton onClick={() => handleCheck('link')}>
             <ListItemIcon>
               <Checkbox
                 edge='start'
@@ -102,7 +102,7 @@ const FilterData = ({ setFilter, filter }) => {
             </ListItemIcon>
             <ListItemText primary='Cobros con link de pago' />
           </ListItemButton>
-          <ListItemButton>
+          <ListItemButton onClick={() => handleCheck('all')}>
             <ListItemIcon>
               <Checkbox
                 edge='start'
@@ -112,10 +112,12 @@ const FilterData = ({ setFilter, filter }) => {
             </ListItemIcon>
             <ListItemText primary='Ver todos' />
           </ListItemButton>
-          <ListItem alignItems='center'>
-            <Button onClick={validateFilter}>
-              Aplicar
-            </Button>
+          <ListItem>
+            <ListItemButton sx={{ textAlign: 'center', width: '20%', borderRadius: '40px 40px 40px 40px', backgroundColor: '#ef434e' }} onClick={validateFilter}>
+              <ListItemText>
+                Aplicar
+              </ListItemText>
+            </ListItemButton>
           </ListItem>
         </List>
       </Menu>

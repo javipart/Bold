@@ -12,6 +12,7 @@ import {
 } from './actions/accountStatusAction';
 
 import './App.css';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 function App() {
   const store = useStore();
@@ -31,30 +32,52 @@ function App() {
     dispatch(setFilter(filter));
   };
 
+  const formatterField = new Intl.NumberFormat('es-CO', {
+    style: 'currency',
+    currency: 'COP',
+    minimumFractionDigits: 0,
+  });
+
+  const outerTheme = createTheme({
+    palette: {
+      primary: {
+        main: '#111e6c'
+      },
+      secondary: {
+        main: '#ef434e'
+      },
+    }
+  })
+
   return (
-    <div className="App">
-      <NavBar />
-      <Container fixed>
-        <Grid container spacing={2}>
-          <Grid item xs={12}>
-            <PanelMenu
-              onChange={onChange}
-              option={optionDate}
-              totalSales={totalSales}
-              filter={filter}
-              setFilter={validateFilter}
-            />
+    <ThemeProvider theme={outerTheme}>
+      <div className="App">
+        <NavBar />
+        <Container maxWidth='xl' sx={{ paddingTop: '30px' }}>
+          <Grid container spacing={2}>
+            <Grid item xs={12}>
+              <PanelMenu
+                onChange={onChange}
+                option={optionDate}
+                totalSales={totalSales}
+                filter={filter}
+                setFilter={validateFilter}
+                formatterField={formatterField}
+                loading={loading}
+              />
+            </Grid>
+            <Grid item xs={12}>
+              <PanelTable
+                option={optionDate}
+                loading={loading}
+                data={sales}
+                formatterField={formatterField}
+              />
+            </Grid>
           </Grid>
-          <Grid item xs={12}>
-            <PanelTable
-              option={optionDate}
-              loading={loading}
-              data={sales}
-            />
-          </Grid>
-        </Grid>
-      </Container>
-    </div>
+        </Container>
+      </div>
+    </ThemeProvider>
   );
 }
 

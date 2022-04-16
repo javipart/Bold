@@ -6,24 +6,32 @@ import FilterData from './FilterData';
 import OptionsDate from './OptionsDate';
 import TotalDate from './TotalDate';
 
-const PanelMenu = ({ onChange, option, totalSales, setFilter, filter }) => {
+const PanelMenu = ({ onChange, option, totalSales, setFilter, filter, formatterField, loading }) => {
   return (
     <Grid container spacing={2}>
       <Grid item xs={4}>
         <TotalDate
           option={option}
           totalSales={totalSales}
+          formatterField={formatterField}
+          loading={loading}
         />
       </Grid>
       <Grid item xs={8}>
-        <OptionsDate
-          onChange={onChange}
-          option={option}
-        />
-        <FilterData
-          filter={filter}
-          setFilter={setFilter}
-        />
+        <Grid container spacing={2}>
+          <Grid item xs={12}>
+            <OptionsDate
+              onChange={onChange}
+              option={option}
+            />
+          </Grid>
+          <Grid item xs={12} sx={{ textAlign: 'end' }}>
+            <FilterData
+              filter={filter}
+              setFilter={setFilter}
+            />
+          </Grid>
+        </Grid>
       </Grid>
     </Grid>
   );

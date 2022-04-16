@@ -1,5 +1,5 @@
 import React, { } from 'react';
-import { AppBar, Box, Button, Container, Toolbar, Typography } from '@mui/material';
+import { AppBar, Box, Button, Container, Toolbar, Tooltip, Typography } from '@mui/material';
 import { HelpOutline } from '@mui/icons-material';
 
 const NavBar = () => {
@@ -10,16 +10,19 @@ const NavBar = () => {
           <section className='Panel-header'>
             <img src='/logo.svg' alt='Bold' className='App-logo' />
           </section>
-          <Box>
+          <div style={{ textAlign: 'end', width: '100%' }}>
             <Button sx={{ color: '#FFFFFF' }}>
               Mi negocio
             </Button>
-          </Box>
-          <Box>
-            <Button sx={{ color: '#FFFFFF' }} endIcon={<HelpOutline />}>
+            <Button
+              sx={{ color: '#FFFFFF' }}
+              endIcon={
+                <Tooltip title='¿Necsitas Ayuda?'>
+                  <HelpOutline />
+                </Tooltip>}>
               Ayuda
             </Button>
-          </Box>
+          </div>
         </Toolbar>
       </Container>
     </AppBar>
